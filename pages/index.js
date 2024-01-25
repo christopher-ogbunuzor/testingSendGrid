@@ -13,7 +13,7 @@ export default function Home() {
       formData[field.name] = field.value;
     });
 
-    await fetch('/api/mail', {
+    await fetch('/api/sendemail', {
       method: 'POST',
       body: JSON.stringify(formData)
     });
