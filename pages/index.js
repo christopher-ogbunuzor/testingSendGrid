@@ -3,7 +3,7 @@ import Image from 'next/image'
 import styles from '../styles/Home.module.css'
 
 export default function Home() {
-  async function handleOnSubmit(e) {
+  async function handleOnSubmit(e) { 
     e.preventDefault();
 
     const formData = {};
